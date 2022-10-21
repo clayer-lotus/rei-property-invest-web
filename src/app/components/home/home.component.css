@@ -1,0 +1,34 @@
+.home {
+    position: relative;
+}
+
+.home .section-1 {
+    background: linear-gradient(90deg, #3847EF, #99E9A5);
+    border-bottom: 50%;
+}
+
+
+
+.home .intro-white {
+    color: white;
+}
+
+.home .intro-white .heading {
+    font-weight: 900;
+    font-size: 78px;
+}
+
+.home .section-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url(https://www.reipropertyinvest.in/static/media/podio-intro.3ffacf5bb93d001a21e5.png);
+    background-position: center top;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.home .section-2 .marquee-content .marquee-container {
+position: absolute;
+}
+
+.home .section-2 .marquee-content img{
+    width: 100px;
+}
