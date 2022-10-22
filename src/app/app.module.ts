@@ -7,6 +7,7 @@ import { HomeComponent } from './components/home/home.component';
 import { GetStartedComponent } from './components/get-started/get-started.component';
 import { CeoSaysComponent } from './components/ceo-says/ceo-says.component';
 import { IndustrySpecificPodioComponent } from './components/industry-specific-podio/industry-specific-podio.component';
+import { IntegrationPodioComponent } from './components/integration-podio/integration-podio.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IndustrySpecificPodioComponent } from './components/industry-specific-p
     HomeComponent,
     GetStartedComponent,
     CeoSaysComponent,
-    IndustrySpecificPodioComponent
+    IndustrySpecificPodioComponent,
+    IntegrationPodioComponent
   ],
   imports: [
     BrowserModule,
