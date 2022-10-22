@@ -6,9 +6,7 @@
 }
 
 .ceo-says .section-1 img{
-    width: 450px;
-    height: 450px;
-   
+   width: 97%;
     object-fit: contain;
 }
 .ceo-says .section-2 img{

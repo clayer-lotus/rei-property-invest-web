@@ -10,6 +10,7 @@ import { IndustrySpecificPodioComponent } from './components/industry-specific-p
 import { IntegrationPodioComponent } from './components/integration-podio/integration-podio.component';
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ServicesHomeComponent } from './components/services-home/services-home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './components/footer/footer.component';
     IndustrySpecificPodioComponent,
     IntegrationPodioComponent,
     TestimonialsComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesHomeComponent
   ],
   imports: [
     BrowserModule,
