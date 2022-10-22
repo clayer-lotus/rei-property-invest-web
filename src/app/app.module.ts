@@ -8,6 +8,8 @@ import { GetStartedComponent } from './components/get-started/get-started.compon
 import { CeoSaysComponent } from './components/ceo-says/ceo-says.component';
 import { IndustrySpecificPodioComponent } from './components/industry-specific-podio/industry-specific-podio.component';
 import { IntegrationPodioComponent } from './components/integration-podio/integration-podio.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { IntegrationPodioComponent } from './components/integration-podio/integr
     GetStartedComponent,
     CeoSaysComponent,
     IndustrySpecificPodioComponent,
-    IntegrationPodioComponent
+    IntegrationPodioComponent,
+    TestimonialsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

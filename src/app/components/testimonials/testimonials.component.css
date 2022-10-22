@@ -1,0 +1,20 @@
+.section-testimonials{
+    background-image: linear-gradient(rgba(0,0,0,.755),rgba(0,0,0,.705)),url('http://avantage.bold-themes.com/strategy/wp-content/uploads/sites/10/2017/04/blog-post-05.jpg');
+    background-attachment: fixed;
+    background-position: center center!important;
+    font-family: Oswald,sans-serif;
+}
+
+.section-testimonials .section-1 img{
+    width: 130px;
+}
+
+.section-testimonials .testimonial-text{
+    color: #ffffffe7;
+}
+.section-testimonials .testimonial-text i{
+    font-size: 120px;
+}
+.section-testimonials .testimonial-text h5{
+    text-transform: uppercase;
+}
