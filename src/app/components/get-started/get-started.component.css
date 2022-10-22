@@ -1,0 +1,31 @@
+
+.get-started {
+    padding: 90px 0 60px 0;
+
+}
+
+
+.get-started .item img {
+    width: 150px;
+}
+
+
+.accordion-item {
+    background: rgb(42, 42, 42);
+
+    color: #ffffffe7;
+}
+
+.accordion-item .accordion-button {
+    background: linear-gradient(90deg, #3847EF, #99E9A5);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+    color: #ffffffe7;
+    padding: 30px 10px 30px 20px;
+    text-transform: uppercase;
+    transform: skewY(361deg);
+
+}
+
+.accordion-item:nth-child(even) {
+    margin: 20px 0 20px 0;
+}

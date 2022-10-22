@@ -1,0 +1,15 @@
+.ceo-says {
+    padding: 90px 0 60px 0;
+    background: rgb(42, 42, 42);
+    color: #ffffffe7;
+    transform: skewY(361deg);
+}
+
+.ceo-says .section-1 img{
+    width: 100%;
+   
+    object-fit: contain;
+}
+.ceo-says .section-2 img{
+    width: 130px;
+}
