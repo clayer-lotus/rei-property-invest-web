@@ -1,0 +1,8 @@
+.section-logo{
+    position: absolute;
+    z-index: 1;
+}
+
+.section-logo img{
+    width: 100px;
+}
