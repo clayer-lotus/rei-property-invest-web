@@ -19,12 +19,18 @@
     font-size: 78px;
 }
 
+@media screen and (max-width: 600px) {
+    .home .intro-white .heading {
+         font-size: 35px;
+    }
+  }
+
 .home .section-2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.797), rgba(0, 0, 0, 0.5)), url(https://www.reipropertyinvest.in/static/media/podio-intro.3ffacf5bb93d001a21e5.png);
     background-position: center top;
     background-attachment: fixed;
     position: relative;
-
+    overflow: hidden;
 }
 
 .home .section-2 .marquee-content .marquee-container {
@@ -45,3 +51,4 @@
 .home .section-2 .marquee-content img {
     width: 100px;
 }
+

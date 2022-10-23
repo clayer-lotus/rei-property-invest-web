@@ -50,6 +50,11 @@ body{
     font-weight: 800;
   
 }
+@media screen and (max-width: 600px) {
+    .header-section .title {
+         font-size: 35px;
+    }
+  }
 
 .header-section .small-title {
     font-size: 22px;
