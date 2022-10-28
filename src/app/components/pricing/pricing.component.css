@@ -23,11 +23,6 @@
     background: linear-gradient(to right,#e16521,#ffc30edf);
     box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
 }
-.second-card:hover
-{
-    background: linear-gradient(to right,#e16521,#ffc30edf);
-    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
-}
 .pricing-card .icon{
     width: 80px;
     height: 80px;
@@ -48,6 +43,9 @@
     font-weight: 500;
     text-transform: uppercase;
 }
+.second-card .caption p{
+    color: black;
+}
 .pricing-card .caption p > span {
     color: #ffffffe7;
     font-size: 14px;
@@ -59,6 +57,12 @@
 .pricing-card .single-features .feature-caption{
     padding-left: 19px;
     
+}
+.pricing-card .single-features .feature-caption .highlight-text{
+    color: #0e93ffdf;
+}
+.second-card .single-features .feature-caption .highlight-text{
+    color: black;
 }
 .pricing-card .single-features .feature-icon i{
     color: #fff;

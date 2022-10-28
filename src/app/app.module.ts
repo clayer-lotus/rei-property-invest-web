@@ -13,6 +13,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ServicesHomeComponent } from './components/services-home/services-home.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeadingIntroComponent } from './components/heading-intro/heading-intro.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     FooterComponent,
     ServicesHomeComponent,
     PricingComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeadingIntroComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,

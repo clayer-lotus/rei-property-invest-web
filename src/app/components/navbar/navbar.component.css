@@ -2,13 +2,20 @@
     background: linear-gradient(90deg, #3847EF, #99E9A5);
     padding: 160px 0 60px 0;  
     color: #ffffffe7;
+    
 }
 .navbar-section h1{
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 58px;
+    font-size: 68px;
 }
 .navbar-section h2{
     text-transform: capitalize;
-    
+    font-size: 38px;
 }
+
+@media screen and (max-width: 797px) {
+    .navbar-section h2{
+        font-size: 22px;
+    }
+  }
