@@ -1,0 +1,82 @@
+.section-pricing {
+   
+    font-family: 'Oswald', sans-serif;
+    padding: 90px 0 70px;
+    font-family: Oswald,sans-serif;
+    background: url(http://avantage.bold-themes.com/business/wp-content/uploads/sites/2/2019/04/bgn-industries.png);
+    background-position: bottom;
+    background-size: contain; 
+}
+.pricing-card{
+    transition: all 0.4s ease 0s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 36px 24px 25px;
+    transform: skewY(361deg);
+    background: rgb(42, 42, 42);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.pricing-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.second-card
+{
+    background: linear-gradient(to right,#e16521,#ffc30edf);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+}
+.second-card:hover
+{
+    background: linear-gradient(to right,#e16521,#ffc30edf);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+}
+.pricing-card .icon{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-bottom: 31px;
+    line-height: 75px;
+    text-align: center;
+    box-shadow: rgb(66 85 164 / 8%) 0px 15px 25px;
+}
+
+.pricing-card .caption .months{
+    color: #ffffffe7;
+    text-transform: uppercase;
+}
+.pricing-card .caption p{
+    color: red;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.pricing-card .caption p > span {
+    color: #ffffffe7;
+    font-size: 14px;
+    font-weight: 500;
+}
+.pricing-card .single-features{
+    display: flex;
+}
+.pricing-card .single-features .feature-caption{
+    padding-left: 19px;
+    
+}
+.pricing-card .single-features .feature-icon i{
+    color: #fff;
+    background: #0e93ffdf;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+ .second-card .single-features .feature-icon i{
+    color: #fff;
+    background: black;
+    padding: 5px;
+    border-radius: 50%;
+
+}
+.pricing-card .single-features .feature-caption p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ffffffe7;
+    text-transform: capitalize;
+}

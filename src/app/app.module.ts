@@ -11,6 +11,8 @@ import { IntegrationPodioComponent } from './components/integration-podio/integr
 import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServicesHomeComponent } from './components/services-home/services-home.component';
+import { PricingComponent } from './components/pricing/pricing.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ServicesHomeComponent } from './components/services-home/services-home.
     IntegrationPodioComponent,
     TestimonialsComponent,
     FooterComponent,
-    ServicesHomeComponent
+    ServicesHomeComponent,
+    PricingComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

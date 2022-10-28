@@ -1,42 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Oswald', sans-serif;
 }
+
 .btn {
-    color: #fff!important;
-    font-size: 18px!important;
-    font-weight: 500!important;
-    line-height: 48px!important;
-    padding: 0 40px!important;
-    text-align: center!important;
-    transition: all .3s ease-in-out!important;
+    color: #fff !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 48px !important;
+    padding: 0 40px !important;
+    text-align: center !important;
+    transition: all .3s ease-in-out !important;
 }
 
 .btn-vary1 {
-    background: linear-gradient(to right,#e16521,#ffc30edf);
+    background: linear-gradient(to right, #e16521, #ffc30edf);
 }
 
 .btn-vary1:hover {
-    background: linear-gradient(to right,#e16421eb,#ffc30ea1);
+    background: linear-gradient(to right, #e16421eb, #ffc30ea1);
 }
+
 .btn-vary2 {
-    background: linear-gradient(to right,#e164212e,#ffc30e22);
+    background: linear-gradient(to right, #e164212e, #ffc30e22);
     border-color: #ffffffe7;
     border-radius: 2px;
 }
+
 .btn-vary2:hover {
-    background: linear-gradient(to right,#e1642150,#ffc30e42);
-  
+    background-color: #fff;
+    color: black !important;
+}
+
+.btn-vary3 {
+    background: linear-gradient(90deg, #3847EF, #99E9A5);
+   color: #fff;
+}
+.btn-vary3:hover {
+    background: #fff;
+    color: black !important;
 }
 .header-section {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .header-section .title {
@@ -48,13 +61,14 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
-  
+
 }
+
 @media screen and (max-width: 600px) {
     .header-section .title {
-         font-size: 35px;
+        font-size: 35px;
     }
-  }
+}
 
 .header-section .small-title {
     font-size: 22px;
@@ -62,6 +76,5 @@ body{
     font-weight: 400;
     line-height: 24px;
     margin: 0px 0px 15px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-
