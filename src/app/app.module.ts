@@ -15,6 +15,8 @@ import { PricingComponent } from './components/pricing/pricing.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HeadingIntroComponent } from './components/heading-intro/heading-intro.component';
 import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
+import { ProductsComponent } from './components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { AboutComponent } from './components/about/about.component';
     PricingComponent,
     NavbarComponent,
     HeadingIntroComponent,
-    AboutComponent
+    AboutComponent,
+    ServicesComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
