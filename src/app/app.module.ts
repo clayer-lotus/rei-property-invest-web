@@ -17,6 +17,7 @@ import { HeadingIntroComponent } from './components/heading-intro/heading-intro.
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ProductsComponent } from './components/products/products.component';
+import { TermsAndConditionComponent } from './components/terms-and-condition/terms-and-condition.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ProductsComponent } from './components/products/products.component';
     HeadingIntroComponent,
     AboutComponent,
     ServicesComponent,
-    ProductsComponent
+    ProductsComponent,
+    TermsAndConditionComponent
   ],
   imports: [
     BrowserModule,
