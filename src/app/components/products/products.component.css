@@ -57,3 +57,14 @@
 .podio-crm-suit-apps .apps-card {
     width: 500px;
 }
+.podio-crm-suit-apps img {
+    height: 72px;
+    width: 72px;
+}
+
+/* faqs */
+.faqs {
+    padding: 90px 0 60px 0;
+
+}
+

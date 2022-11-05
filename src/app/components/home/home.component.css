@@ -11,8 +11,13 @@
 
 
 
+
 .home .intro-white {
     color: #ffffffe7;
+}
+
+.home .in-short{
+text-transform: uppercase;
 }
 
 .home .intro-white .heading {
