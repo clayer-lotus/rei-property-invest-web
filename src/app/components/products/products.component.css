@@ -1,0 +1,59 @@
+
+
+
+.features-started-steps .arrow-shape {
+    position: relative;
+    z-index: 1;
+}
+
+.features-started-steps .arrow-shape::before {
+    position: absolute;
+    content: url("https://www.reipropertyinvest.in/static/media/arrow-shape-before.ea8ae7d8a712ce04c39b.svg");
+    top: 26%;
+    left: -20%;
+}
+
+.features-started-steps .arrow-shape::after {
+    position: absolute;
+    content: url("https://www.reipropertyinvest.in/static/media/arrow-shape-after.ea8ae7d8a712ce04c39b.svg");
+    top: 26%;
+    right: -10%;
+}
+
+@media (max-width: 768px) {
+    .features-started-steps .arrow-shape::after {
+      content: none;
+    }
+    .features-started-steps .arrow-shape::before {
+        content: none;
+      }
+  }
+
+/* Product short intro */
+  .product-short-intro {
+    padding: 90px 0 60px 0;
+    background: rgb(42, 42, 42);
+    color: #ffffffe7;
+    transform: skewY(361deg);
+}
+
+.product-short-intro .section-1 img{
+   width: 95%;
+    object-fit: contain;
+}
+.product-short-intro .section-2 img{
+    width: 130px;
+}
+.product-short-intro .section-2 h1, h3{
+    text-transform: uppercase;
+}
+
+
+/* podio-crm-suit-apps */
+.podio-crm-suit-apps{
+    padding: 90px 0 60px 0;
+    background: rgb(42, 42, 42);
+}
+.podio-crm-suit-apps .apps-card {
+    width: 500px;
+}

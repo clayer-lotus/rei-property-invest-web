@@ -1,0 +1,20 @@
+.our-services{
+    padding: 90px 0 60px 0;
+}
+.our-services .small-title{
+    
+    color: #0e93ffdf;
+}
+
+.our-services .main-title{
+    display: block;
+    background: linear-gradient(90deg, #3847EF, #99E9A5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-integration{
+    padding: 90px 0 60px 0;
+    background: rgb(42, 42, 42);
+    color: #ffffffe7;
+}
