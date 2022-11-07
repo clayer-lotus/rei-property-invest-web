@@ -1,5 +1,5 @@
 .navbar-section{
-    background: linear-gradient(90deg, #3847EF, #99E9A5);
+    background: url(https://assets.website-files.com/61dea5ccd519f764b1999a8c/6229fb381c9dafd015a845ea_main-banner.png);
     padding: 160px 0 60px 0;  
     color: #ffffffe7;
     
@@ -7,11 +7,12 @@
 .navbar-section h1{
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 68px;
+    font-size: 98px;
 }
 .navbar-section h2{
     text-transform: capitalize;
     font-size: 38px;
+    line-height: 1.5em;
 }
 
 @media screen and (max-width: 797px) {

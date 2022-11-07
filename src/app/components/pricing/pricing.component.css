@@ -12,15 +12,23 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 36px 24px 25px;
     transform: skewY(361deg);
-    background: rgb(42, 42, 42);
+   
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .pricing-card:hover{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
-.second-card
+ .first-card{
+  background: linear-gradient(to right,#737373,#C3C3C1);
+  box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+}
+.second-card{
+    background: linear-gradient(to right,#B39900,#FFDF00);
+    box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
+}
+.third-card
 {
-    background: linear-gradient(to right,#e16521,#ffc30edf);
+    background: linear-gradient(to right,#3b3a39,#ffc30edf);
     box-shadow: rgb(2 25 65 / 8%) 0px 8px 8px 0px;
 }
 .pricing-card .icon{
@@ -43,7 +51,7 @@
     font-weight: 500;
     text-transform: uppercase;
 }
-.second-card .caption p{
+.third-card .caption p{
     color: black;
 }
 .pricing-card .caption p > span {
@@ -61,7 +69,7 @@
 .pricing-card .single-features .feature-caption .highlight-text{
     color: #0e93ffdf;
 }
-.second-card .single-features .feature-caption .highlight-text{
+.third-card .single-features .feature-caption .highlight-text{
     color: black;
 }
 .pricing-card .single-features .feature-icon i{
@@ -71,7 +79,7 @@
     border-radius: 50%;
 
 }
- .second-card .single-features .feature-icon i{
+ .third-card .single-features .feature-icon i{
     color: #fff;
     background: black;
     padding: 5px;
