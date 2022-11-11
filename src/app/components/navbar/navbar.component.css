@@ -16,6 +16,9 @@
 }
 
 @media screen and (max-width: 797px) {
+    .navbar-section h1{
+        font-size: 58px;
+    }
     .navbar-section h2{
         font-size: 22px;
     }

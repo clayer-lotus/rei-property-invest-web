@@ -10,15 +10,19 @@
 body {
     font-family: 'Oswald', sans-serif;
 }
+p{
+    text-align: justify;
+}
 
 .btn {
-    color: #fff !important;
+    color: #fff ;
     font-size: 18px !important;
     font-weight: 500 !important;
     line-height: 48px !important;
     padding: 0 40px !important;
     text-align: center !important;
     transition: all .3s ease-in-out !important;
+    text-transform: uppercase;
 }
 
 .btn-vary1 {
@@ -30,14 +34,16 @@ body {
 }
 
 .btn-vary2 {
-    background: linear-gradient(to right, #e164212e, #ffc30e22);
-    border-color: #ffffffe7;
+    background: white;
+    border-color:black;
     border-radius: 2px;
+    border-width: 2px;
+    color: black;
 }
 
 .btn-vary2:hover {
-    background-color: #fff;
-    color: black !important;
+    background: black;
+    color: white;
 }
 
 .btn-vary3 {
@@ -52,7 +58,7 @@ body {
     margin-bottom: 50px;
 }
 
-.header-section .title {
+ .title {
     margin-bottom: 18px;
     font-size: 58px;
     text-transform: uppercase;
@@ -61,16 +67,17 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
+    position: relative;
 
 }
 
 @media screen and (max-width: 600px) {
-    .header-section .title {
+    .title {
         font-size: 35px;
     }
 }
 
-.header-section .small-title {
+.small-title {
     font-size: 22px;
     color: #0e93ffdf;
     font-weight: 400;

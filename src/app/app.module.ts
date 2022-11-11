@@ -18,6 +18,8 @@ import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ProductsComponent } from './components/products/products.component';
 import { TermsAndConditionComponent } from './components/terms-and-condition/terms-and-condition.component';
+import { IntegrationSeperateComponent } from './components/integration-seperate/integration-seperate.component';
+import { PodioCrmSuitAllComponent } from './components/podio-crm-suit-all/podio-crm-suit-all.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { TermsAndConditionComponent } from './components/terms-and-condition/ter
     AboutComponent,
     ServicesComponent,
     ProductsComponent,
-    TermsAndConditionComponent
+    TermsAndConditionComponent,
+    IntegrationSeperateComponent,
+    PodioCrmSuitAllComponent
   ],
   imports: [
     BrowserModule,

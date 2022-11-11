@@ -1,0 +1,17 @@
+
+/* podio-crm-suit-apps */
+
+
+.podio-crm-suit-apps{
+    padding: 90px 0 60px 0;
+    color: white;
+}
+.podio-crm-suit-apps .apps-card {
+    width: 500px;
+    background-color: #1f1f1f;
+   
+}
+.podio-crm-suit-apps img {
+    height: 72px;
+    width: 72px;
+}
